@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>多背景图片</title>
     <style>
-        .bg {
-            position: fixed;
-            top: 100px;
-            left: 0;
-            width: 183px;
-            height: 700px;
-            background: red;
-        }
+      .bg {
+        position: fixed;
+        top: 0px;
+        left: 0;
+        width: 175px;
+        height: 600px;
+        /* background: no-repeat center 114px/175px calc(100% - 114px) url("img/002.png"), no-repeat center top/175px 114px url("img/003.png"); */
+        background: url("img/002.png"), url("img/003.png");
+        background-repeat: no-repeat, no-repeat;
+        background-position: center 114px, center top;
+        background-size: 175px calc(100% - 114px), 175px 114px;
+      }
     </style>
-</head>
-<body>
-<div class="bg">
-
-</div>
-</body>
+  </head>
+  <body>
+    <div class="bg"></div>
+  </body>
 </html>
