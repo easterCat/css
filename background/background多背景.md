@@ -13,7 +13,7 @@
       }
 ```
 
-![bg04]()
+![bg04](https://github.com/easterCat/css/blob/master/background/img/004.png?raw=true)
 
 当数据不够的时候就是一个扁扁的样子
 
@@ -28,7 +28,7 @@
       }
 ```
 
-![bg05]()
+![bg05](https://github.com/easterCat/css/blob/master/background/img/005.png?raw=true)
 
 这时候就是想办法能够让图自适应且还能看的过去，于是就出现将头部变形比较明显的文字图案和底部颜色渐变分成，两个图的解决方法。这样头部文字不懂，颜色渐变进行拉伸就不那么明显了。于是分成两个 div，分别存放头部和底部，但是总感觉这方法有些繁琐，看了看文档发现 background 可以设置多背景
 
@@ -58,7 +58,7 @@
       }
 ```
 
-![bg06]()
+![bg06](https://github.com/easterCat/css/blob/master/background/img/006.png?raw=true)
 
 > IE8 及更早的浏览器版本不支持一个元素有多个背景图片
 
